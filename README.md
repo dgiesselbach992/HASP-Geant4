@@ -9,7 +9,7 @@ Link included in allows you to download a VM which has Geant4 already downloaded
 Linux Help Sheet uploaded 20Jan2026
 Linux Help Sheet contains helpful tips for navigating Geant4 VM, linux, and Geant4 code.
 
-example_B1.zip uploaded 20Jan2026 to example_B1 branch
+example_B1.zip uploaded 20Jan2026
 example_B1 contains 4 sub-folders:
 -B1_3_objects: a sample simulation with 3 bodies(lead target, plastic scintillator, and silicon "detector"); not updated
 -B1_lead_only: test simulation with 2 bodies(tungsten target(I know, I know) and silicon "detector"); most up to date; produced all recent outputs(see G4 Outputs)
