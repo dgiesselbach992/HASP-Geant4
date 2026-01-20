@@ -1,6 +1,8 @@
 # HASP-Geant4
 I'm considering adding a Computer Science dual major
 
+Thus is best read in code format.
+
 G4 VM uploaded 20Jan2026
 Link included in allows you to download a VM which has Geant4 already downloaded(you will need a VM software preferable VMWare Workstation or Fusion)
 
