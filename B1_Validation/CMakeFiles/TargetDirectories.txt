@@ -1,3 +1,0 @@
-/home/local1/example_B1/B1_Validation/CMakeFiles/exampleB1.dir
-/home/local1/example_B1/B1_Validation/CMakeFiles/edit_cache.dir
-/home/local1/example_B1/B1_Validation/CMakeFiles/rebuild_cache.dir
