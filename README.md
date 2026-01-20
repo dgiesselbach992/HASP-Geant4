@@ -20,5 +20,5 @@ To quickly run a simulation(these steps must be carried out using Bash): select 
 To run one of the pre-coded files(assuming you have already prepared the files as previously discussed; cannot be done in B1_originals): while in the desired folder(one of the 4) enter "make -j2"(or "make -j4"), enter "chmod +x file_name.sh"(a safe bet is the myrun.sh file; it's a simple simulation that exists in all of the folders(except B1_originals)), enter "./file_name.sh"(must be the same file name as used in "chmod +x" command), expected run time is roughly a minute(you should see live updates on screen; myrun.sh executes 10 total runs)
 ***WARNING*** The precoded files are currently configured to run on 4 cores. If you are running less than 4 cores, the script run time will increase. The number of cores being used can be changed in the .sh file: see Linux Help File for further instructions on how to do this. 
 
-DM me on Slack if you have any questons.
 I will make updates as I make further updates or come across issues. 
+DM me on Slack if you have any questons.
