@@ -1,0 +1,8 @@
+run,primary_proton,secondary_proton,neutron,e-,e+,mu-,mu+,pi-,pi+,gamma,other
+0,12265,12,18,6,0,0,0,2,0,6,0
+run,primary_proton,secondary_proton,neutron,e-,e+,mu-,mu+,pi-,pi+,gamma,other
+0,12536,13,22,6,0,0,0,1,1,11,0
+run,primary_proton,secondary_proton,neutron,e-,e+,mu-,mu+,pi-,pi+,gamma,other
+0,12488,13,22,6,0,0,1,2,0,20,0
+run,primary_proton,secondary_proton,neutron,e-,e+,mu-,mu+,pi-,pi+,gamma,other
+0,12711,10,17,10,1,0,0,2,5,10,0

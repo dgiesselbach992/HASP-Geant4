@@ -1,0 +1,5 @@
+run,total,proton,electron,gamma,pion,muon,kaon,other,photons
+1,12520,120,78,10001,10,0,5,2306,=
+Total,12520,120,78,10001,10,0,5,2306,0
+Average,1252,12,7,1000,1,0,0,230,0
+Per Proton,0,0,0,0,0,0,,0,0

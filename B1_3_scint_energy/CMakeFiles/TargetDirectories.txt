@@ -1,0 +1,3 @@
+/home/local1/example_B1/B1_3_scint_new_run/CMakeFiles/exampleB1.dir
+/home/local1/example_B1/B1_3_scint_new_run/CMakeFiles/edit_cache.dir
+/home/local1/example_B1/B1_3_scint_new_run/CMakeFiles/rebuild_cache.dir

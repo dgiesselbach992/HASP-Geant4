@@ -1,0 +1,6 @@
+run,d1_proton,d1_electron,d1_gamma,d1_pion,d1_muon,d1_kaon,d1_other,d1_total,d1_photons,d2_proton,d2_electron,d2_gamma,d2_pion,d2_muon,d2_kaon,d2_other,d2_total,d2_photons
+1,73,62,1153,68,0,1,326,1683,2756,0,0,0,0,0,0,0,0,2756
+1753
+
+Total,73,62,1153,68,0,1,326,1683,2756,0,0,0,0,0,0,0,0,0
+Average,7,6,115,6,0,0,32,168,275,0,0,0,0,0,0,0,0,0,
