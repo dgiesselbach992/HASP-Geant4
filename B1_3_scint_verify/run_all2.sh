@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ENERGIES=(5 15)        # energies to run
+ENERGIES=(10)        # energies to run
 NUM_RUNS=10            # runs per energy
 NUM_PARTICLES=5000     # primaries per run
 

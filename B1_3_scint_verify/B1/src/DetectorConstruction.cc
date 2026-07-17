@@ -88,7 +88,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
     // -------------------------
     // Tungsten block
     // -------------------------
-    auto tungsten_mat = nist->FindOrBuildMaterial("G4_W");
+    auto tungsten_mat = nist->FindOrBuildMaterial("G4_AIR");
     auto solidTungsten = new G4Box("Tungsten", 0.5*tungstenXY, 0.5*tungstenXY, 0.5*tungstenZ);
     fTungsten = new G4LogicalVolume(solidTungsten, tungsten_mat, "Tungsten");
 
