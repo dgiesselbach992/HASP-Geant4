@@ -36,6 +36,7 @@
 #include "G4LogicalVolumeStore.hh"
 #include "G4ParticleGun.hh"
 #include "G4ParticleTable.hh"
+#include "G4Event.hh"
 #include "G4SystemOfUnits.hh"
 #include "Randomize.hh"
 
@@ -60,6 +61,8 @@ PrimaryGeneratorAction::PrimaryGeneratorAction()
 
     fParticleGun->SetParticleDefinition(particle);
     fParticleGun->SetParticleEnergy(fEnergy);
+
+    // Default direction (we override this in GeneratePrimaries)
     fParticleGun->SetParticleMomentumDirection(G4ThreeVector(0., 0., 1.));
 }
 
@@ -99,22 +102,29 @@ void PrimaryGeneratorAction::GeneratePrimaries(G4Event* event)
     // --- Tungsten center position (from DetectorConstruction) ---
     G4double tungstenCenterZ = -20.0 * cm;
 
-    // --- Sample uniformly across tungsten front face ---
+    // ------------------------------------------------------------
+    // NEW BEAM MODEL:
+    // Sample (x,y) uniformly across tungsten front face
+    // ------------------------------------------------------------
     G4double x0 = (2.0 * G4UniformRand() - 1.0) * hx;
     G4double y0 = (2.0 * G4UniformRand() - 1.0) * hy;
 
-    // --- Place gun upstream of tungsten entry air detector ---
-    // tungsten_entry is at: tungstenCenterZ - hz - 0.5*airZ
-    // We place the gun 5 cm upstream of that.
+    // ------------------------------------------------------------
+    // NEW: Gun placed 1 cm upstream of tungsten entry detector
+    // tungsten_entry = tungstenCenterZ - hz - 0.5*airZ
+    // ------------------------------------------------------------
     G4double airZ = 1.0 * mm;
-    G4double gunZ = tungstenCenterZ - hz - 0.5*airZ - 5.0*cm;
+    G4double tungstenEntryZ = tungstenCenterZ - hz - 0.5 * airZ;
 
+    G4double gunZ = tungstenEntryZ - 1.0 * cm;
+
+    // Set particle position
     fParticleGun->SetParticlePosition(G4ThreeVector(x0, y0, gunZ));
 
-    // --- Aim at tungsten center ---
-    G4ThreeVector targetCenter(0., 0., tungstenCenterZ);
-    G4ThreeVector direction = (targetCenter - G4ThreeVector(x0, y0, gunZ)).unit();
-    fParticleGun->SetParticleMomentumDirection(direction);
+    // ------------------------------------------------------------
+    // NEW: Gun direction is straight forward (+z)
+    // ------------------------------------------------------------
+    fParticleGun->SetParticleMomentumDirection(G4ThreeVector(0., 0., 1.));
 
     // Generate the event
     fParticleGun->GeneratePrimaryVertex(event);

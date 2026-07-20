@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ENERGIES=(5 15)
+ENERGIES=(10)
 TRIALS=2
 RUNS_PER_TRIAL=10      # 1 run
 PARTICLES=5000       #5000 primaries per run

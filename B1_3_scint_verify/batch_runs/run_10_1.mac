@@ -5,7 +5,7 @@
 #
 /run/numberOfThreads 1
 #
-/random/setSeeds   387901406  3308910538
+/random/setSeeds   134208320  3331384230
 #
 /control/verbose 2
 /run/verbose 2

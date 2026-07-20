@@ -5,7 +5,7 @@
 #
 /run/numberOfThreads 1
 #
-/random/setSeeds  4156526470  2410173679
+/random/setSeeds  4025911804  2976442930
 #
 /control/verbose 2
 /run/verbose 2
@@ -19,5 +19,5 @@
 /gun/energy 5
 #
 /run/printProgress 100
-/run/beamOn 100
+/run/beamOn 5000
 

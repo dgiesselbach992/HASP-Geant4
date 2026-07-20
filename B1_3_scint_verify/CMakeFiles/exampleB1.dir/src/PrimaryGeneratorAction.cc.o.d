@@ -311,6 +311,17 @@ CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.o: \
  /usr/local/geant4.11.4.0/include/Geant4/G4ParticleTable.hh \
  /usr/local/geant4.11.4.0/include/Geant4/G4ParticleTableIterator.hh \
  /usr/local/geant4.11.4.0/include/Geant4/G4ParticleTable.icc \
+ /usr/local/geant4.11.4.0/include/Geant4/G4Event.hh \
+ /usr/include/c++/11/set /usr/include/c++/11/bits/stl_set.h \
+ /usr/include/c++/11/bits/stl_multiset.h \
+ /usr/local/geant4.11.4.0/include/Geant4/evtdefs.hh \
+ /usr/local/geant4.11.4.0/include/Geant4/G4HCofThisEvent.hh \
+ /usr/local/geant4.11.4.0/include/Geant4/G4VHitsCollection.hh \
+ /usr/local/geant4.11.4.0/include/Geant4/G4DCofThisEvent.hh \
+ /usr/local/geant4.11.4.0/include/Geant4/G4VDigiCollection.hh \
+ /usr/local/geant4.11.4.0/include/Geant4/G4TrajectoryContainer.hh \
+ /usr/local/geant4.11.4.0/include/Geant4/G4VTrajectory.hh \
+ /usr/local/geant4.11.4.0/include/Geant4/G4VUserEventInformation.hh \
  /usr/local/geant4.11.4.0/include/Geant4/G4SystemOfUnits.hh \
  /usr/local/geant4.11.4.0/include/Geant4/Randomize.hh \
  /usr/local/clhep/2.4.7.2/include/CLHEP/Random/Randomize.h \
