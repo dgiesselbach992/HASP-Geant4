@@ -1,0 +1,21 @@
+# Macro file for example B1
+# 
+# To be run preferably in batch, without graphics:
+# % exampleB1 run2.mac
+#
+/run/numberOfThreads 4
+#
+/random/setSeeds  3737632562  2560771539
+#
+/control/verbose 2
+/run/verbose 2
+#
+/run/initialize
+#
+/gun/energy 75.068726 GeV
+#
+/run/printProgress 1
+/run/beamOn 10
+
+
+
